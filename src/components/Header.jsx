@@ -16,7 +16,7 @@ const Header = () => {
   const useStyles = makeStyles(() => ({
     title: {
       flex: 1,
-      color: "gold",
+      color: "Orange",
       fontFamily: "Montserrat",
       fontWeight: "bold",
       cursor: "pointer",
@@ -44,7 +44,7 @@ const Header = () => {
               onClick={() => history.push("/")}
               variant="h6"
             >
-              Crypto Hunter
+              Crypto Wizard
             </Typography>
             <Select
               variant="outlined"

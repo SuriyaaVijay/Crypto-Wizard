@@ -71,7 +71,7 @@ const CoinsTable = () => {
     },
     pagination: {
       "& .MuiPaginationItem-root": {
-        color: "gold",
+        color: "orange",
       },
     },
   });
@@ -92,10 +92,10 @@ const CoinsTable = () => {
         ></TextField>
         <TableContainer>
           {loading ? (
-            <LinearProgress style={{ backgroundColor: "gold" }} />
+            <LinearProgress style={{ backgroundColor: "Orange" }} />
           ) : (
             <Table>
-              <TableHead style={{ backgroundColor: "#EEBC1D" }}>
+              <TableHead style={{ backgroundColor: "Orange" }}>
                 <TableRow>
                   {["Coin", "Price", "24h Change", "Market Cap"].map((head) => (
                     <TableCell

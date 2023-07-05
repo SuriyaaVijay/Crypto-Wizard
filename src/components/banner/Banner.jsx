@@ -4,7 +4,7 @@ import Carousel from "./Carousel";
 const useStyles = makeStyles(() => ({
   banner: {   
     backgroundImage: "url(./banner2.jpg)",
-    minHeight: 400,
+    minHeight: 450,
     paddingTop: 25,
 },
 bannerContent: {
@@ -32,14 +32,15 @@ const Banner = () => {
             style={{
               fontWeight: "bold",
               marginBottom: 15,
-              fontFamily: "Arial",
+              fontFamily: "Helvetica",
+              color: "Coral"
             }}
           >
-            Crypto Hunter
+            Crypto Wizard
             <Typography
               variant="subtitle2"
               style={{
-                color: "darkgray",
+                color: "white",
                 transform: "capitalize",
                 fontFamily: "Montserrat",
               }}
