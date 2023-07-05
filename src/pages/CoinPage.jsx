@@ -10,6 +10,7 @@ import CoinInfo from "../components/CoinInfo";
 // import htmlReactParser from "react-html-parser"
 import parse from "html-react-parser";
 import { numberWithCommas } from "../components/CoinsTable";
+import Footer from "../components/Footer";
 
 // import htmlparser2 from "htmlparser2";
 const CoinPage = () => {
@@ -139,7 +140,7 @@ const CoinPage = () => {
       </div>
 
       {/* chart */}
-      <CoinInfo />
+      <CoinInfo />            
     </div>
   );
 };

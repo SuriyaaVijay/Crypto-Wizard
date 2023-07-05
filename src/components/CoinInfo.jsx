@@ -3,7 +3,9 @@ import React, { useEffect } from "react";
 import { useState } from "react";
 import { HistoricalChart } from "../config/api";
 import { CryptoState } from "../CryptoContext";
-import { Line } from "react-chartjs-2";
+// import { Line } from "react-chartjs-2";
+import { Chart as ChartJS } from "chart.js/auto";
+import { Chart, Line } from "react-chartjs-2";
 import {
   CircularProgress,
   createTheme,
